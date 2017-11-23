@@ -12,13 +12,13 @@ import org.json.JSONObject;
 import java.io.File;
 
 public class NeopixelBoard {
-    static final short kDefaultType = 82;
+    public static final short kDefaultType = 82;
 
     String name;
-    byte width, height;
-    byte components;
-    byte stride;
-    short type;
+    public byte width, height;
+    public byte components;
+    public byte stride;
+    public short type;
 
     public NeopixelBoard(String name, byte width, byte height, byte components, byte stride, short type) {
         this.name = name;

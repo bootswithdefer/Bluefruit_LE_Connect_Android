@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements BleManager.BleMan
             R.string.scan_connectservice_controller,
             R.string.scan_connectservice_beacon,
             R.string.scan_connectservice_neopixel,
+            R.string.scan_connectservice_custom
     };
 
     // Activity request codes (used for onActivityResult)
@@ -640,6 +641,10 @@ public class MainActivity extends AppCompatActivity implements BleManager.BleMan
                             }
                             case R.string.scan_connectservice_neopixel: {       // Neopixel
                                 mComponentToStartWhenConnected = NeopixelActivity.class;
+                                break;
+                            }
+                            case R.string.scan_connectservice_custom: {       // Neopixel
+                                mComponentToStartWhenConnected = CustomActivity.class;
                                 break;
                             }
                         }

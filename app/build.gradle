@@ -12,7 +12,8 @@ android {
         versionName "2.3.0"
     }
 
-    useLibrary 'org.apache.http.legacy'     // TODO: remove Apache library and use HttpURLConnection (Apache is deprecated since Android 6.0)
+    useLibrary 'org.apache.http.legacy'
+    // TODO: remove Apache library and use HttpURLConnection (Apache is deprecated since Android 6.0)
 
     aaptOptions {
         noCompress "zip"
@@ -32,7 +33,10 @@ repositories {
     google()
 }
 
+
+
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'no.nordicsemi.android:dfu:1.0.4'
     compile(group: 'org.eclipse.paho', name: 'org.eclipse.paho.android.service', version: '1.0.2') {

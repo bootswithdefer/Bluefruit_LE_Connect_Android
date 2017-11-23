@@ -177,7 +177,6 @@
                 android:value="com.adafruit.bluefruit.le.connect.app.neopixel.NeopixelActivity" />
         </activity>
 
-
         <provider
             android:name=".utils.LegacyCompatFileProvider"
             android:authorities="com.adafruit.bluefruit.le.connect.fileprovider"
@@ -186,8 +185,17 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
-
         </provider>
+
+        <activity
+            android:name=".app.CustomActivity"
+            android:label="@string/title_activity_custom"
+            android:parentActivityName=".app.MainActivity"
+            android:screenOrientation="fullUser">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.adafruit.bluefruit.le.connect.app.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

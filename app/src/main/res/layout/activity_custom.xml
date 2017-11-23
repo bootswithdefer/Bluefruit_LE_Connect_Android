@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_background"
+    android:orientation="vertical"
+
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+
+    tools:context="com.adafruit.bluefruit.le.connect.app.CustomActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/custom_button_one"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:onClick="onClickOne"
+            android:text="@string/custom_design_button_one" />
+
+        <Button
+            android:id="@+id/custom_button_two"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:onClick="onClickTwo"
+            android:text="@string/custom_design_button_two" />
+
+        <Button
+            android:id="@+id/custom_button_three"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:onClick="onClickThree"
+            android:text="@string/custom_design_button_three" />
+
+        <Button
+            android:id="@+id/custom_button_four"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:onClick="onClickFour"
+            android:text="@string/custom_design_button_four" />
+
+        <Button
+            android:id="@+id/custom_button_five"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:onClick="onClickFive"
+            android:text="@string/custom_design_button_five" />
+
+        <Button
+            android:id="@+id/custom_button_six"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:onClick="onClickSix"
+            android:text="@string/custom_design_button_six" />
+
+        <Button
+            android:id="@+id/custom_button_seven"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:onClick="onClickSeven"
+            android:text="@string/custom_design_button_seven" />
+
+        <Button
+            android:id="@+id/custom_button_eight"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:onClick="onClickEight"
+            android:text="@string/custom_design_button_eight" />
+
+        <Button
+            android:id="@+id/custom_button_nine"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:onClick="onClickNine"
+            android:text="@string/custom_design_button_nine" />
+
+        <Button
+            android:id="@+id/custom_button_ten"
+            android:layout_width="128dp"
+            android:layout_height="84dp"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:onClick="onClickTen"
+            android:text="@string/custom_design_button_ten" />
+
+    </GridLayout>
+</LinearLayout>

@@ -52,6 +52,7 @@
     <string name="scan_connectservice_controller">Controller</string>
     <string name="scan_connectservice_beacon">Beacon</string>
     <string name="scan_connectservice_neopixel">Neopixel</string>
+    <string name="scan_connectservice_custom">Custom</string>
     <string name="scan_softwareupdate_title">Update available</string>
     <string name="scan_softwareupdate_messageformat">Software version %s is available</string>
     <string name="scan_bootloaderandfirmwareupdate_messageformat">Software version %1$s and Bootloader version %2$s are available. This is a two-step process: bootloader will be updated first and firmware the next time you connect to the device</string>
@@ -90,7 +91,6 @@
     <string name="scan_filters_rssi_value_format">%d dBM</string>
     <string name="scan_filters_unnamed">Show unnamed devices</string>
     <string name="scan_filters_onlyuart">Must have UART service</string>
-
 
 
     <string-array name="scan_devicetypes">
@@ -316,7 +316,6 @@
     <string name="neopixel_help_export_text">Export Neopixel Sketch</string>
     <string name="neopixel_help_export_chooser_title">Select app for Exporting Sketch</string>
 
-
     <!-- Settings -->
     <string name="title_activity_settings">Settings</string>
     <string name="settings_category_connectivity">App launch</string>
@@ -436,6 +435,17 @@
     <!-- Common -->
     <string name="dialog_notice">Notice</string>
     <string name="dialog_dontshowagain">Don\'t show again</string>
+    <string name="title_activity_custom">Custom</string>
+    <string name="custom_design_button_one">ASU</string>
+    <string name="custom_design_button_two">reInvent</string>
+    <string name="custom_design_button_three">Three</string>
+    <string name="custom_design_button_four">Four</string>
+    <string name="custom_design_button_five">Five</string>
+    <string name="custom_design_button_six">Six</string>
+    <string name="custom_design_button_seven">Seven</string>
+    <string name="custom_design_button_eight">Eight</string>
+    <string name="custom_design_button_nine">Nine</string>
+    <string name="custom_design_button_ten">Ten</string>
 
     <!-- Debug -->
 
